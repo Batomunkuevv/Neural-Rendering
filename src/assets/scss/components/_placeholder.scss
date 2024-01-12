@@ -1,0 +1,55 @@
+.placeholder {
+    padding: 80px 32px;
+    background: $colorSecond;
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    &__icon {
+        margin-bottom: 40px;
+        width: 100px;
+        height: 100px;
+
+        @media (max-width: 768px) {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 32px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 40px;
+        font-size: 64px;
+        line-height: 125%;
+
+        @media (max-width: 992px) {
+            font-size: 48px;
+        }
+
+        @media (max-width: 768px) {
+            margin-bottom: 32px;
+            font-size: 40px;
+        }
+
+        @media (max-width: 576px) {
+            font-size: 32px;
+        }
+    }
+
+    &__text {
+        font-size: 32px;
+        line-height: 125%;
+
+        @media (max-width: 768px) {
+            font-size: 24px;
+        }
+
+        @media (max-width: 576px) {
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.loader {
+    padding-top: 44px;
+    padding-bottom: 69px;
+    padding-left: 44px;
+    padding-right: 67px;
+    margin: 0 auto;
+    border-radius: 30px;
+    background: $colorSecond;
+    max-width: 686px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &__caption {
+        margin-bottom: 30px;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    &__line {
+        width: 100%;
+        height: 10px;
+        background: #fff;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+
+    &__progress {
+        background: $colorMain;
+        height: 100%;
+        border-radius: 30px;
+        display: block;
+        transition: all 0.3s ease-in-out 0s;
+    }
+}

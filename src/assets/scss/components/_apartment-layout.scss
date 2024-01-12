@@ -1,0 +1,65 @@
+.apartment-layout {
+    position: relative;
+    width: 67.59%;
+    aspect-ratio: 872/815;
+
+    &__image {
+        pointer-events: none;
+
+        & img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__view {
+        position: absolute;
+        background: none;
+        color: #7786b8;
+        transition: all 0.3s ease-in-out 0s;
+
+        & * {
+            pointer-events: none;
+        }
+
+        &.is-active {
+            color: #559631;
+        }
+
+        &--01 {
+            top: 13.7%;
+            left: 32.2%;
+            width: 17.6%;
+        }
+
+        &--02 {
+            top: 13.8%;
+            left: 50.7%;
+            width: 17.6%;
+        }
+
+        &--03 {
+            top: 7.4%;
+            left: 75.5%;
+            width: 10.85%;
+        }
+
+        &--04 {
+            top: 35.6%;
+            left: 69.1%;
+            width: 17.6%;
+        }
+
+        &--05 {
+            top: 62.4%;
+            left: 68.9%;
+            width: 17.6%;
+        }
+
+        &--06 {
+            top: 59%;
+            left: 46.8%;
+            width: 17.82%;
+        }
+    }
+}

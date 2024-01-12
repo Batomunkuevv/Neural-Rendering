@@ -1,0 +1,35 @@
+.instruction {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__body {
+        padding: 56px 32px;
+        width: 100%;
+        max-width: 540px;
+        min-height: 148px;
+        background: $colorSecond;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    &__close {
+        position: absolute;
+        top: 13px;
+        right: 19px;
+        color: #fff;
+        width: 27px;
+        height: 27px;
+        transition: all 0.3s ease-in-out 0s;
+
+        &:hover{
+            color: $colorMain;
+        }
+    }
+}

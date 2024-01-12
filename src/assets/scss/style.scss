@@ -1,0 +1,18 @@
+@import "base/fonts.scss";
+@import "base/variables";
+@import "base/reset";
+@import "base/common";
+
+//?==============<Components>==============
+
+@import "components/btn";
+@import "components/placeholder";
+@import "components/furniture-style";
+@import "components/neural-rendering";
+@import "components/loader";
+@import "components/apartment-layout";
+@import "components/ai-results";
+@import "components/result-popup";
+@import "components/instruction";
+
+//?==============</Components>=============
